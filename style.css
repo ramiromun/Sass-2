@@ -8,6 +8,7 @@
 }
 
 body {
+    width: 100%;
     background-image: url(./img/fondo3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -25,6 +26,7 @@ body {
     background-image: url(./img/Writing\ on\ the\ wall\ wallpaper\ by\ dstark_fcb9\ -\ Download\ on\ ZEDGE™\ _\ b236.jpg);
 }
 main {
+    width: 100%;
     min-height: 1400px;
 }
 .parrafo {
@@ -276,4 +278,8 @@ footer .grupo-2 {
     font-size: 22px;
  }
  
- @media screen and (max-width:800px)
+ @media screen and (max-width:600px) {
+    .footer {
+        width: 100%;
+    }
+ }
