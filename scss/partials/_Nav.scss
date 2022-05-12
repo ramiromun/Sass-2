@@ -1,0 +1,26 @@
+@import "../variables/variables.scss";
+.navbar-brand {
+    margin-left: 25px;
+    font-size: 45px;
+    transition: all 0.3s;
+    .navbar-brand:hover {
+        transform: scale(1.2);
+}
+.navbar {
+    border-top: $border;
+    border-bottom: $border;
+}
+.navbar-nav {
+    margin-left: auto;
+    .navbar-nav li {
+        padding: 0 15px;
+        .navbar-nav li a {
+            $color1: orange;
+        }
+        .navbar-nav li a:hover {
+            color: white;
+        }
+    }
+    
+}
+}

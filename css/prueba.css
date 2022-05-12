@@ -1,0 +1,29 @@
+.navbar-brand {
+  margin-left: 25px;
+  font-size: 45px;
+  transition: all 0.3s; }
+  .navbar-brand .navbar-brand:hover {
+    transform: scale(1.2); }
+  .navbar-brand .navbar {
+    border-top: orange solid thin;
+    border-bottom: orange solid thin; }
+  .navbar-brand .navbar-nav {
+    margin-left: auto; }
+    .navbar-brand .navbar-nav .navbar-nav li {
+      padding: 0 15px; }
+      .navbar-brand .navbar-nav .navbar-nav li .navbar-nav li a:hover {
+        color: white; }
+
+body {
+  width: 100%;
+  background-image: url(../img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: orange; }
