@@ -1,7 +1,5 @@
 @import "../variables/variables.scss";
-
-@mixin fuente {
+.titulo_carrito{
+    text-align: center;
     font-size: 22px;
-    color: $color1;
-    
-}
+ }

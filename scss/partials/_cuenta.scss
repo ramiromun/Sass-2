@@ -1,0 +1,15 @@
+@import "../variables/variables.scss";
+.titulo_cuenta{
+    text-align: center;
+    font-size: 22px;
+}
+
+.form_contenedor{
+    border: orange solid thin;
+    width: 400px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+}

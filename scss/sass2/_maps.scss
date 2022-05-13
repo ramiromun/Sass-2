@@ -3,6 +3,9 @@
 $ejemplo: (
     color: $color1,
     size: $size,
-    
 
 );
+.parrafo {
+    font-size: map-get($ejemplo, size);
+    color: map-get($ejemplo, color );
+}

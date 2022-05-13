@@ -1,26 +1,34 @@
 @import "../variables/variables.scss";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 .navbar-brand {
     margin-left: 25px;
     font-size: 45px;
     transition: all 0.3s;
-    .navbar-brand:hover {
-        transform: scale(1.2);
 }
-.navbar {
-    border-top: $border;
-    border-bottom: $border;
+.navbar-brand:hover {
+    transform: scale(1.2);
 }
 .navbar-nav {
     margin-left: auto;
-    .navbar-nav li {
-        padding: 0 15px;
-        .navbar-nav li a {
-            $color1: orange;
-        }
-        .navbar-nav li a:hover {
-            color: white;
-        }
-    }
-    
 }
+.navbar-nav li {
+    padding: 0 15px;
+}
+.navbar-nav li a {
+    color: orange;
+}
+
+.navbar-nav li a:hover {
+    color: white;
+}
+.navbar {
+    @extend .navbar-footer
+}
+.navbar-toggler {
+    color: orange;
+}
+.conteiner {
+    max-width: 1400px;
+    margin: auto;
 }

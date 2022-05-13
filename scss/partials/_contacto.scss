@@ -1,0 +1,31 @@
+@import "../variables/variables.scss";
+@import "../sass2/mixins";
+.contenedor_formulario{
+    border: orange solid thin;
+    width: 400px;
+    background: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+.contenedor_formulario legend{
+    @include fuente;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background: #101010;
+    border:orange thin solid;
+    @include fuente;
+}
+.botons{
+    background: #101010;
+    border: none;
+    width: 100%;
+    height: 3%;
+    margin: 15 0 5 0;
+}

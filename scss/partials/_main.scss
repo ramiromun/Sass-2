@@ -1,0 +1,30 @@
+@import "../variables/variables.scss";
+
+.img_PCs {
+    display: flex;
+    border: orange solid;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ .fotos {
+     padding: 20px;
+    height: 250px;
+    width: auto;
+ }
+.PCs {
+    color: orange;
+    font-size: 20px;
+}
+.a {
+    padding: 60px 20px;
+   font-size: 15px;
+   color: orange;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+}
+.a h3 span {
+    color: rgb(255, 111, 0);
+}

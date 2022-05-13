@@ -1,18 +1,33 @@
+.navbar-footer, .navbar, footer {
+  border-top: orange solid thin;
+  border-bottom: orange solid thin; }
+
 .navbar-brand {
   margin-left: 25px;
   font-size: 45px;
   transition: all 0.3s; }
-  .navbar-brand .navbar-brand:hover {
-    transform: scale(1.2); }
-  .navbar-brand .navbar {
-    border-top: orange solid thin;
-    border-bottom: orange solid thin; }
-  .navbar-brand .navbar-nav {
-    margin-left: auto; }
-    .navbar-brand .navbar-nav .navbar-nav li {
-      padding: 0 15px; }
-      .navbar-brand .navbar-nav .navbar-nav li .navbar-nav li a:hover {
-        color: white; }
+
+.navbar-brand:hover {
+  transform: scale(1.2); }
+
+.navbar-nav {
+  margin-left: auto; }
+
+.navbar-nav li {
+  padding: 0 15px; }
+
+.navbar-nav li a {
+  color: orange; }
+
+.navbar-nav li a:hover {
+  color: white; }
+
+.navbar-toggler {
+  color: orange; }
+
+.conteiner {
+  max-width: 1400px;
+  margin: auto; }
 
 body {
   width: 100%;
@@ -22,8 +37,169 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
+.img_PCs {
+  display: flex;
+  border: orange solid;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.fotos {
+  padding: 20px;
+  height: 250px;
+  width: auto; }
+
+.PCs {
+  color: orange;
+  font-size: 20px; }
+
+.a {
+  padding: 60px 20px;
+  font-size: 15px;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+
+.a h3 span {
+  color: #ff6f00; }
+
+.navbar-footer, .navbar, footer {
+  border-top: orange solid thin;
+  border-bottom: orange solid thin; }
+
+footer {
+  width: 100%;
+  background-color: black; }
+
+footer .grupo-1 {
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+
+footer .grupo-1 .box .logo-footer {
+  width: 100%;
+  height: 100%; }
+
+footer .grupo-1 .box .logo-footer p {
+  font-size: 50px;
+  color: orange;
+  transition: all 0.3s; }
+
+footer .grupo-1 .box .logo-footer p:hover {
+  transform: scale(1.2); }
+
+footer a {
+  text-decoration: none; }
+
+footer .grupo-1 .box h4 {
+  color: orange;
+  margin-bottom: 25px;
+  font-size: 20px; }
+
+footer .grupo-1 .box p {
+  color: orange;
+  font-size: 15px; }
+
+footer .grupo-1 .box .red-social a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: orange;
+  margin-right: 10px;
+  background-color: #4c4b4b;
+  text-align: center;
+  border-radius: 15px;
+  border: orange solid thin; }
+
+footer .grupo-1 .box .red-social a:hover {
+  color: white; }
+
+footer .grupo-2 {
+  background-color: #121212;
+  text-align: center;
+  color: orange;
+  height: 60px;
+  padding: 20px 0 20px 0; }
+
+.contenedor_formulario {
+  border: orange solid thin;
+  width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  margin-bottom: 50px; }
+
+.contenedor_formulario legend {
+  font-size: 22px;
+  color: orange; }
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background: #101010;
+  border: orange thin solid;
+  font-size: 22px;
+  color: orange; }
+
+.botons {
+  background: #101010;
+  border: none;
+  width: 100%;
+  height: 3%;
+  margin: 15 0 5 0; }
+
+.titulo_cuenta {
+  text-align: center;
+  font-size: 22px; }
+
+.form_contenedor {
+  border: orange solid thin;
+  width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px; }
+
+.parrafo {
+  font-size: 20px;
+  color: orange; }
+
+.navbar-footer, .navbar, footer {
+  border-top: orange solid thin;
+  border-bottom: orange solid thin; }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   color: orange; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: orange;
+  padding: 50px;
+  background-image: url(../img/fondo-hero.jpg); }
+
+main {
+  width: 100%;
+  min-height: 1400px; }
+
+.parrafo {
+  font-size: 20px;
+  color: #ff9100; }
