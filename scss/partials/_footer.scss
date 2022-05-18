@@ -6,6 +6,7 @@ footer {
     @extend .navbar-footer;
     width: 100%;
     background-color: black;
+    margin-bottom: auto;
     
 }
 footer .grupo-1 {
@@ -65,3 +66,17 @@ footer .grupo-2 {
     height: 60px;
     padding: 20px 0 20px 0;
 }
+@media (max-width: 730px) {
+    footer {
+        .grupo-1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            footer .grupo-1 .box p{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+ }

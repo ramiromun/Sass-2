@@ -25,12 +25,9 @@
 .navbar-toggler {
   color: orange; }
 
-.conteiner {
-  max-width: 1400px;
-  margin: auto; }
-
 body {
   width: 100%;
+  height: 110vh;
   background-image: url(../img/fondo3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -71,7 +68,8 @@ body {
 
 footer {
   width: 100%;
-  background-color: black; }
+  background-color: black;
+  margin-bottom: auto; }
 
 footer .grupo-1 {
   width: 100%;
@@ -128,6 +126,16 @@ footer .grupo-2 {
   height: 60px;
   padding: 20px 0 20px 0; }
 
+@media (max-width: 730px) {
+  footer .grupo-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+    footer .grupo-1 footer .grupo-1 .box p {
+      padding-left: 20px;
+      padding-right: 20px; } }
+
 .contenedor_formulario {
   border: orange solid thin;
   width: 400px;
@@ -159,6 +167,15 @@ footer .grupo-2 {
   height: 3%;
   margin: 15 0 5 0; }
 
+@media (max-width: 730px) {
+  .form h2 {
+    text-align: center; }
+  .form p {
+    text-align: center; }
+  body {
+    width: 100%;
+    height: 10vh; } }
+
 .titulo_cuenta {
   text-align: center;
   font-size: 22px; }
@@ -171,6 +188,63 @@ footer .grupo-2 {
   margin: auto;
   margin-top: 50px;
   border-radius: 4px; }
+
+.title {
+  text-align: center; }
+
+.contenedor {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  gap: 5px;
+  height: 1000px; }
+  .contenedor .item {
+    margin: 10px;
+    border-radius: 6px;
+    height: 375px;
+    width: 425px;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px black;
+    transition: all 400ms ease; }
+    .contenedor .item img {
+      width: 100%;
+      height: 230px;
+      border-radius: 6px; }
+    .contenedor .item .contenido {
+      background: #1a1a1a;
+      padding: 15px;
+      text-align: center; }
+      .contenedor .item .contenido a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        color: orange;
+        border: 1px solid orange;
+        transition: all 400ms ease; }
+      .contenedor .item .contenido p {
+        line-height: 1.5;
+        color: gray; }
+      .contenedor .item .contenido a:hover {
+        background: orange;
+        color: black; }
+  .contenedor .item:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+@media (max-width: 1380px) {
+  body {
+    height: auto; }
+  .contenedor {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    gap: 5px;
+    height: 1000px; } }
 
 .parrafo {
   font-size: 20px;
