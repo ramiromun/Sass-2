@@ -28,3 +28,9 @@
 .a h3 span {
     color: rgb(255, 111, 0);
 }
+
+@media (max-width: 400px) {
+    main {
+        height: 100vh;
+    }
+}
